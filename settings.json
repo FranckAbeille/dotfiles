@@ -77,11 +77,22 @@
     "telemetry.telemetryLevel": "off",
     "window.restoreWindows": "none",
     "window.newWindowDimensions": "maximized",
-    "workbench.editor.enablePreview": true,
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false,
+      "ruby": false,
+      "html": false
+    },
+    "terminal.integrated.initialHint": false,
+    "chat.disableAIFeatures": true,
 }
